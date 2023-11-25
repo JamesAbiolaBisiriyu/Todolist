@@ -18,10 +18,10 @@ import React, { useState } from 'react'
   return (
     <form className='TodoForm'onSubmit={handleSubmit}>
       <input type="text" className='todo-input' value=
-        {value} placeholder='Update Task'
+        {value} placeholder='What is the Task Today'
         onChange={(e) => setValue(e.target.value)} />
       <button type='submit' className='todo-btn'>
-        Update Task
+        Add Task
       </button>
     </form>
   )
